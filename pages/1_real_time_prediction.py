@@ -1,5 +1,5 @@
 import streamlit as st
-import face_rec
+from home import face_rec
 from streamlit_webrtc import webrtc_streamer
 import av
 import time
@@ -7,11 +7,11 @@ import pandas as pd
 from datetime import datetime
 
 # Page configuration
-# st.set_page_config(
-#     page_title="Live Attendance | AI Attendance",
-#     page_icon="🟢",
-#     layout="wide"
-# )
+st.set_page_config(
+    page_title="Live Attendance | AI Attendance",
+    page_icon="🟢",
+    layout="wide"
+)
 
 # Custom CSS
 st.markdown("""
