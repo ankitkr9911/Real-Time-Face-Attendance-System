@@ -10,3 +10,4 @@ scikit-learn
 onnxruntime
 streamlit-webrtc
 streamlit
+plotly
