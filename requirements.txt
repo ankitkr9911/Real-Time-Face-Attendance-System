@@ -1,6 +1,10 @@
+streamlit
+opencv-python==4.8.0.76
 numpy
 pandas
 matplotlib
 scipy
-jupyter
-opencv-python
+Pillow
+redis
+face_recognition
+streamlit-webrtc
